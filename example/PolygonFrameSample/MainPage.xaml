@@ -1,14 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:PolygonFrameSample"
-             x:Class="PolygonFrameSample.MainPage">
+<ContentPage
+    x:Class="PolygonFrameSample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:polygonFrame="clr-namespace:Xamarin.Forms.PolygonFrame;assembly=Xamarin.Forms.PolygonFrame">
+    <Grid Padding="0,50,0,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <polygonFrame:PolygonFrame
+            BackgroundColor="YellowGreen"
+            CornerRadius="30"
+            HasShadow="False"
+            HeightRequest="150"
+            Sides="3"
+            WidthRequest="150" />
+        <polygonFrame:PolygonFrame
+            Grid.Row="0"
+            Grid.Column="1"
+            CornerRadius="30"
+            HasShadow="True"
+            HeightRequest="150"
+            Sides="3"
+            WidthRequest="150">
+            <Image Aspect="AspectFill" Source="https://source.unsplash.com/random?q=1" />
+        </polygonFrame:PolygonFrame>
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+        <polygonFrame:PolygonFrame
+            Grid.Row="1"
+            Grid.Column="0"
+            BackgroundColor="Aquamarine"
+            CornerRadius="30"
+            HasShadow="False"
+            HeightRequest="150"
+            Sides="5"
+            WidthRequest="150" />
+        <polygonFrame:PolygonFrame
+            Grid.Row="1"
+            Grid.Column="1"
+            CornerRadius="30"
+            HasShadow="True"
+            HeightRequest="150"
+            Sides="5"
+            WidthRequest="150">
+            <Image Aspect="AspectFill" Source="https://source.unsplash.com/random?q=2" />
+        </polygonFrame:PolygonFrame>
+
+        <polygonFrame:PolygonFrame
+            Grid.Row="2"
+            Grid.Column="0"
+            BackgroundColor="Teal"
+            CornerRadius="30"
+            HasShadow="False"
+            HeightRequest="150"
+            Sides="6"
+            WidthRequest="150" />
+        <polygonFrame:PolygonFrame
+            Grid.Row="2"
+            Grid.Column="1"
+            CornerRadius="30"
+            HasShadow="True"
+            HeightRequest="150"
+            Sides="6"
+            WidthRequest="150">
+            <Image Aspect="AspectFill" Source="https://source.unsplash.com/random?q=3" />
+        </polygonFrame:PolygonFrame>
+
+        <polygonFrame:PolygonFrame
+            Grid.Row="3"
+            Grid.Column="0"
+            BackgroundColor="Salmon"
+            CornerRadius="30"
+            HasShadow="False"
+            HeightRequest="150"
+            Sides="7"
+            WidthRequest="150" />
+        <polygonFrame:PolygonFrame
+            Grid.Row="3"
+            Grid.Column="1"
+            CornerRadius="30"
+            HasShadow="True"
+            HeightRequest="150"
+            Sides="7"
+            WidthRequest="150">
+            <Image Aspect="AspectFill" Source="https://source.unsplash.com/random?q=4" />
+        </polygonFrame:PolygonFrame>
+
+
+        <polygonFrame:PolygonFrame
+            Grid.Row="4"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            BackgroundColor="DodgerBlue"
+            CornerRadius="30"
+            HasShadow="True"
+            HeightRequest="200"
+            HorizontalOptions="Center"
+            Sides="6"
+            VerticalOptions="Center"
+            WidthRequest="200">
+            <Label
+                FontAttributes="Bold"
+                FontSize="80"
+                HorizontalOptions="Center"
+                Text="X"
+                TextColor="White"
+                VerticalTextAlignment="Center" />
+        </polygonFrame:PolygonFrame>
+    </Grid>
 
 </ContentPage>
