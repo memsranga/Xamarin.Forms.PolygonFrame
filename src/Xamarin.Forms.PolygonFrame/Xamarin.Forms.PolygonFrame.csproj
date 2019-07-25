@@ -21,10 +21,10 @@
 
     <LangVersion>latest</LangVersion>
     
-    <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/shanranm/Xamarin.Forms.PolygonFrame/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/shanranm/Xamarin.Forms.PolygonFrame</PackageProjectUrl>
     <PackageIconUrl></PackageIconUrl>
-    <RepositoryUrl></RepositoryUrl>
+    <RepositoryUrl>https://github.com/shanranm/Xamarin.Forms.PolygonFrame</RepositoryUrl>
     <PackageTags>xamarin, windows, ios, android, xamarin.forms, plugin, Xamarin.Forms.PolygonFrame, polygon, frame</PackageTags>
     
     <Title>Xamarin.Forms.PolygonFrame Plugin for Xamarin and Windows</Title>
