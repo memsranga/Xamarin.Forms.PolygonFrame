@@ -35,3 +35,7 @@ Adds the nuget to all the projects and just use!
 Android                   |  iOS
 :-------------------------:|:-------------------------:
 <img src="https://github.com/shanranm/Xamarin.Forms.PolygonFrame/blob/master/images/droid-screenshot.jpeg" width="400px" />  |  <img src="https://github.com/shanranm/Xamarin.Forms.PolygonFrame/blob/master/images/ios-screenshot.png" width="400px" />
+
+## License
+
+This project is shamelessly copied from Steven Thewissen [PancakeView](https://github.com/sthewissen/Xamarin.Forms.PancakeView) :)
