@@ -1,3 +1,6 @@
+# Not maintained
+As the features in the repo have been merged in to the awesome [PancakeView](https://github.com/sthewissen/Xamarin.Forms.PancakeView), it will no longer be maintained. All the future development will be done directly on PancakeView
+
 # Xamarin.Forms.PolygonFrame
 Regular Polygonal Frame for Xamarin Forms with rounded corners and shadows
 
